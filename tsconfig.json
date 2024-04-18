@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es2017"],
+    "typeRoots": ["./node_modules/@types", "./src/typings"],
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
