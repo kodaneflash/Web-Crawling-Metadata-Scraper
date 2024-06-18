@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "puppeteer": "^10.0.0",
+    "puppeteer": "^22.11.1",
     "cheerio": "^1.0.0-rc.3",
     "debug": "^3.2.7",
     "he": "^1.2.0",
